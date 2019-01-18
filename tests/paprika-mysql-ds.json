@@ -1,0 +1,9 @@
+{
+  "dev": {
+    "type": "mysql",
+    "host": "localhost",
+    "db": "paprika",
+    "username": "apps",
+    "password": "apps"
+  }
+}
