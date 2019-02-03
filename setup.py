@@ -70,5 +70,14 @@ setup(
     ],
     keywords='development',
     packages=find_packages(exclude=['env', 'etc']),
-    install_requires=['cx_oracle', 'mysql-python']
+    extras_require={
+        'mysql': ['mysqlclient'],
+        'pymysql': ['pymysql'],
+        'postgresql': ['psycopg2'],
+        'postgresql_pg8000': ['pg8000'],
+        'postgresql_psycopg2cffi': ['psycopg2cffi'],
+        'oracle': ['cx_oracle'],
+        'mssql_pyodbc': ['pyodbc'],
+        'mssql_pymssql': ['pymssql']
+    },
 )
