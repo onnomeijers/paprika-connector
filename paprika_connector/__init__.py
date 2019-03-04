@@ -1,4 +1,4 @@
-__version__ = '1.0.1-SNAPSHOT'
+__version__ = '1.0.1'
 
 __title__ = 'paprika-connector'
 __description__ = 'paprika-connector the web frontend for the paprika framework'
