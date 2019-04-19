@@ -57,7 +57,7 @@ class MysqlConnector:
         for keyword in keywords:
             s = s.replace(':' + keyword, '%s')
             # if no value, then insert None, which is transformed to NULL
-            if not target[keyword]:
+            if not target[keyword] and (target[keyword] != 0):
                 p.append(None)
             else:
                 p.append(target[keyword])
