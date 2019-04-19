@@ -70,6 +70,7 @@ setup(
     ],
     keywords='development',
     packages=find_packages(exclude=['env', 'etc']),
+    install_requires=['noora @ git+https://github.com/janripke/noora.git@1.1.0'],
     extras_require={
         'mysql': ['mysqlclient'],
         'pymysql': ['pymysql'],
